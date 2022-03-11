@@ -1,0 +1,109 @@
+
+button{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  float: right;
+  border-radius: 5px 20px;
+  border: none;
+  background-color: rgb(12, 26, 224);
+  padding: 12px 10px;
+}
+button:hover{
+  transition:2ms;
+  cursor:pointer;
+  
+  background-color: rgb(59, 143, 211);
+  box-shadow: 10px 10px #24fdce;
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+  color: #0e65e8;
+}
+.column2{
+  height: 10%;
+  float: left;
+  width: 10%;
+}
+
+  
+
+.row{
+  height: 50px;
+  border: 9px outset rgb(5, 1, 212);
+  background-color: rgb(243, 158, 1);
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background-color: rgb(247, 151, 62) !important;
+  border-radius: 10px,20px;
+}
+
+.box2{
+  margin-left: 150px;
+}
+
+.avatar{
+  border-radius: 10% 40%;
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(255, 0, 191);
+  
+}
+.avtar:hover{
+  background-color: rgb(255, 187, 0);
+}
+
+
+.column3{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.profile {
+  border: 2px solid rgb(248, 0, 248);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  border-radius: 10px 40px;
+  background-color: rgb(55, 195, 230);
+}
+
+.profile:hover{
+  transition: 100ms;
+  box-shadow: 8px 10px 10px 8px rgba(255, 187, 0);
+  transform: translateY(-3px);
+  background-color: rgb(255, 187, 0);
+}
+.email {
+  color: rgb(59, 52, 52);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:20px;
+  color:rgb(244, 248, 0);
+ 
+  font-weight: bold;
+}
+.loader{
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 80px;
+  
+}
