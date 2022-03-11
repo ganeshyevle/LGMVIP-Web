@@ -4,4 +4,4 @@
 - Domain : Web Development
 - Language Used : HTML,CSS,JavaScript
 - IDE Used : VS Code
-<br>A Todo list WEBAPP made in HTML,CSS,JS. It is able to add and delete events.
+<br>🚩 A Todo list WEBAPP made in HTML,CSS,JS. It is able to add and delete events.
