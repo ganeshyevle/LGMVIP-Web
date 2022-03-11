@@ -1,4 +1,4 @@
-# Task4: Calculater
+# Task4: CREATE A CALCULATOR USING HTML, CSS & JS
 ## LGM-VIP March 2022.
 
 - Level: INTERMEDIATE LEVEL TASK
