@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Student Registration Form
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1 class="title">Student Registration Form</h1>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();OFS1();OFS()" autocomplete="off">
+                    <div>
+                        <label>Name*:</label><label class="VE hide" id="NVE">This field is
+                            required.</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
+                    </div>
+                    <div>
+                        <label>Mobile No*:</label>
+                        <input type="tel" name="mobile" id="mobile" placeholder="+91 1234567890" required>
+                    </div>
+                    <div>
+                        <label>Email Id*:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email Address " required>
+                    </div>
+                    <div>
+                        <label>Address*:</label>
+                        <input type="text" name="address" id="address" placeholder="Enter Your City" required>
+
+                    </div>
+                    <div>
+                        <label>Gender*:</label>
+                        <input type="text" name="gender" id="gender" placeholder="Enter Your Gender Male/Female"
+                            required>
+                    </div>
+                    <div>
+                        <label>Skill*:</label>
+                        <input type="text" name="skill" id="skill" placeholder="Enter Your Skills" required>
+                    </div>
+                    <div>
+                        <div class="FAB">
+                            <input type="submit" value="REGISTER">
+                        </div>
+                        <div>
+                            <input type="reset" value="RESET">
+                        </div>
+                </form>
+            </td>
+            <td>
+                <table class="L" id="SL">
+                    <thead>
+                        <h2>Registered Student Details</h2>
+                        <tr>
+                            <th>Name</th>
+                            <th>Mobile No </th>
+                            <th>Email Id </th>
+                            <th>Address</th>
+                            <th>Gender </th>
+                            <th>Skill </th>
+                            <th>Action </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
